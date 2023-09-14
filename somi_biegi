@@ -1,4 +1,4 @@
-sudo apt-get remove docker docker-engine docker.io containerd runc
+fsudo apt-get remove docker docker-engine docker.io containerd runc
 
 sudo apt-get update
 
@@ -101,5 +101,4 @@ nulink/nulink nulink ursula init \
 --network horus \
 --payment-provider https://data-seed-prebsc-2-s2.binance.org:8545/ \
 --payment-network bsc_testnet \
---operator-address yyyyyyyyyyyyyyy \
---max-gas-price 100
+--operator-address yyyyyyyyyyy
