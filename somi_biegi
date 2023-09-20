@@ -94,5 +94,4 @@ docker run -it --rm \
 -p 9151:9151 \
 -v /root/nulink:/code \
 -v /root/nulink:/home/circleci/.local/share/nulink \
--e NULINK_KEYSTORE_PASSWORD \
-nulink/nulink nulink ursula 
+-e NULINK_KEYSTORE_PASSWORD 
